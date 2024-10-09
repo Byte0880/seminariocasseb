@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://coodesh.com/blog/wp-content/uploads/2023/01/como-avaliar-back-end-364x205.png); 
+    background-size: cover; 
+    background-position: center; 
+    color: #333;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.perfil-container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.foto-perfil {
+    width: 250px;  
+    height: 250px;  
+    border-radius: 50%;    
+    box-shadow: 0px 10px 20px black; 
+    object-fit: cover; 
+}
+
+h2 {
+    color: #4CAF50; 
+}
+
+.lista-projetos {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.lista-projetos li {
+    margin: 10px 0; 
+}
+
+.lista-projetos a {
+    color: #4CAF50;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.lista-projetos a:hover {
+    text-decoration: underline; 
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #2E7D32; 
+}
+
+.notificacao {
+    display: none; 
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(76, 175, 80, 0.2); 
+    color: #333;
+    border: 1px solid #4CAF50; 
+    border-radius: 5px; 
+}
+
+.fade-in {
+    animation: fadeIn 0.5s forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.link-voltar {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+}

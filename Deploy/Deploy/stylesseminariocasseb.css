@@ -1,0 +1,60 @@
+body {  
+    font-family: Arial, sans-serif;  
+    padding: 20px;  
+    background-image: url(https://coodesh.com/blog/wp-content/uploads/2023/01/como-avaliar-back-end-364x205.png);  
+    background-size: cover;
+    text-align: center;  
+}  
+
+header {  
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}  
+
+h1 {  
+    font-size: 2.5em;  
+}  
+
+.lista-membros {  
+    list-style: none;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.lista-membros li {  
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;  
+    margin: 15px 0;  
+    padding: 10px;  
+    border: 1px solid #ddd;   
+    border-radius: 10px;   
+    background-color: white;  
+    transition: box-shadow 0.3s;  
+}  
+
+.foto-membro {  
+    width: 250px;  
+    height: 250px;  
+    border-radius: 50%;    
+    box-shadow: 0px 10px 20px black; 
+    object-fit: cover; 
+}  
+
+a {  
+    text-decoration: none;  
+    color: #333;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+a span {  
+    font-size: 1.5em;  
+    font-weight: bold;  
+    margin-top: 10px;  
+}  

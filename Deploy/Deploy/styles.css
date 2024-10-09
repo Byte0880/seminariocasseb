@@ -1,0 +1,62 @@
+body {  
+    font-family: Arial, sans-serif;  
+    padding: 20px;  
+    background-image: url(arena.png);  
+    background-size: cover;
+    text-align: center;  
+}  
+
+header {  
+    background-color: #5434e2;   
+    color: white;  
+    padding: 20px 0;  
+}  
+
+h1 {  
+    font-size: 2.5em;  
+}  
+
+.lista-membros {  
+    list-style: none;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.lista-membros li {  
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;  
+    margin: 15px 0;  
+    padding: 10px;  
+    border: 1px solid #ddd;   
+    border-radius: 10px;   
+    background-color: white;  
+    transition: box-shadow 0.3s;  
+}  
+.foto-membro {  
+    width: 250px;  
+    height: 250px;  
+    border-radius: 50%;    
+}  
+
+
+a {  
+    text-decoration: none;  
+    color: #333;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+a span {  
+    font-size: 1.5em;  
+    font-weight: bold;  
+    margin-top: 10px;  
+}  
+
+.telefone {  
+    font-size: 1.2em;  
+    color: #333;  
+    margin-top: 10px; 
+}

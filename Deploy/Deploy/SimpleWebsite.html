@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 Maiores Clubes de Futebol do Mundo</title>
+    <link rel="stylesheet" href="SimpleWebsite.css">
+    <script src="SimpleWebSite.js"></script>
+</head>
+<body>
+    <center>
+        <header>
+            <nav>
+                <a href="#home">Home</a> |
+                <a href="#video">Vídeo</a> |
+                <a href="#mapas">Localização dos Estádios</a> |
+                <a href="#classificaçao">Classificação dos Clubes</a>
+            </nav>
+        </header>
+
+        <section id="home">
+            <h1>Top 3 Maiores Clubes de Futebol do Mundo</h1>
+            <p>Nessa lista mostraremos algumas informações sobre três dos maiores clubes de futebol do planeta, e os classificaremos, conforme determinados critérios.</p>
+        </section>
+
+        <section id="video">
+            <h2>Vídeo Relacionado</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rjclfTQN1ws?si=vhewjTnz9ddrcRWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="mapas">
+            <h2>Localização dos Estádios</h2>
+            <h3>Estádio do Real Madrid - Santiago Bernabéu</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.004441269899!2d-3.6909086233804884!3d40.45303867143377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sEst%C3%A1dio%20Santiago%20Bernab%C3%A9u!5e0!3m2!1spt-BR!2sbr!4v1725390038612!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Estádio do Milan - San Siro</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11190.283294759869!2d9.118550327214901!3d45.478448737184536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1909e7fc017%3A0x54993b230b18a111!2zU2FuIFNpcm8sIE1pbMOjbywgSXTDoWxpYQ!5e0!3m2!1spt-BR!2sbr!4v1725390164504!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-cross-origin"></iframe>
+            <h3>Estádio do Liverpool - Anfield</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1413.4012214508427!2d-2.9612173466362885!3d53.431849290808664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b216efda9671d%3A0x5daa2e216fe4a4b8!2sAnfield%2C%20Liverpool%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1725390316905!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="classificaçao">
+            <h2>Classificação dos Clubes</h2>
+
+            <h3>Critérios Avaliativos</h3>
+            <table border="1" align="center">
+                <tr>
+                    <td>
+                        <h4>Títulos</h4>
+                        <p>São levados em consideração os títulos mais importantes que um clube pode conquistar:</p> 
+                        <p>A Champions League e o Mundial de Clubes da FIFA.</p>
+                    </td>
+                    <td>
+                        <h4>Influência Global</h4>
+                        <p>Também são importantes a influência midiática e volume de torcedores ao redor do planeta.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Ranking</h3>
+            <table border="1" align="center">
+                <tr>
+                    <th>Posição</th>
+                    <th>Escudos</th>
+                    <th>Clubes</th>
+                    <th>Número de Torcedores</th>
+                    <th>Títulos</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img id="img-real-madrid" src="https://1000logos.net/wp-content/uploads/2017/06/Color-Real-Madrid-Logo.jpg" alt="Real Madrid" onclick="mostrarRealMadrid()"></td>
+                    <td>Real Madrid</td>
+                    <td>29 milhões</td>
+                    <td>15 Champions League e 08 Mundiais de Clubes da FIFA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img id="img-milan" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7jEp0qvDf9I2YlL3bXdQrN2H_5jgMmSgbA&s" alt="Milan" onclick="mostrarMilan()"></td>
+                    <td>Milan</td>
+                    <td>13,4 milhões</td>
+                    <td>7 Champions League e 04 Mundiais de Clubes da FIFA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img id="img-liverpool" src="https://www.futbox.com/img/v1/9c4/4a0/3c5/e3f/e8ef093be708a0aabbf3.png" alt="Liverpool" onclick="mostrarLiverpool()"></td>
+                    <td>Liverpool</td>
+                    <td>20 milhões</td>
+                    <td>6 Champions League e 01 Mundial de Clubes da FIFA</td>
+                </tr>
+            </table>
+        </section>
+    </center>
+</body>
+</html>
